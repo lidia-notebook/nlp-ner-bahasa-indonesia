@@ -1,9 +1,51 @@
-# nlp-ner-bahasa-indonesia
+# Named Entity Recognition (NER) for Indonesian Text
 
-Install all at once:
-```bash
-pip install transformers datasets seqeval -q
+## Project Overview
+
+This project focuses on building a Named Entity Recognition (NER) model for Indonesian text using multilingual BERT. The objective is to identify and classify entities such as person names, locations, and organizations from text data.
+
+---
+
+## Business Understanding
+
+Named Entity Recognition (NER) helps transform unstructured text into structured information. This can support:
+
+- Information extraction
+- Customer support automation
+- Social media monitoring
+- News and document analysis
+- AI-powered NLP applications
+
+---
+
+## Dataset
+
+- Dataset: WikiANN Indonesian Dataset
+- Task: Token Classification / Named Entity Recognition
+- Labels: BIO tagging format (B-PER, I-PER, B-ORG, B-LOC, O, etc.)
 ```
+
+---
+
+## Project Workflow
+
+1. Data Loading & Exploration  
+2. Data Preprocessing  
+3. Tokenization & Label Alignment  
+4. Fine-Tuning Multilingual BERT  
+5. Model Training & Evaluation  
+6. Prediction & Inference  
+ ---
+
+## Model
+
+- Pretrained Model: Multilingual BERT (mBERT)
+- Task Type: Token Classification
+- Framework: Hugging Face Transformers
+
+---
+
+## Tools & Libraries : Python, Pands, NumPy, Hugging Face Transformers, Datasets, PyTorch, Scikit-learn, Matplotlib, Google Colab
 
 ---
 
